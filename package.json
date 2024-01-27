@@ -1,0 +1,21 @@
+{
+  "scripts": {
+    "start": "bun run ./src/index.ts"
+  },
+  "name": "upload-r2",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^6.9.0",
+    "@typescript-eslint/parser": "^6.9.0",
+    "bun-types": "latest",
+    "eslint": "^8.52.0",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-prettier": "^5.0.1",
+    "prettier": "^3.0.3",
+    "prisma": "^5.8.1",
+    "typescript": "^5.2.2"
+  },
+  "peerDependencies": {},
+  "dependencies": { "@aws-sdk/client-s3": "^3.501.0", "@aws-sdk/s3-request-presigner": "^3.501.0", "@prisma/client": "5.8.1", "fastify": "^4.25.2", "zod": "^3.22.4" }
+}
