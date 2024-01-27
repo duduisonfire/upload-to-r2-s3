@@ -12,6 +12,16 @@ export class FileRepository {
       },
     });
   }
+
+  async getFile(id: string) {
+    const file = this.prisma.file.findUniqueOrThrow({
+      where: {
+        id,
+      },
+    });
+
+    return await file;
+  }
 }
 
 export const Files = new FileRepository();

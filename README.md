@@ -1,5 +1,8 @@
-# bun-typescript-boilerplate
+# upload-r2-s3
+Esse é um projeto de treino para a funcionalidade de gerar uma URL pré-assinada de upload e download
+no Amazon S3 ou Cloudflare R2
 
+# Run
 To install dependencies:
 
 ```bash

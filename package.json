@@ -2,7 +2,7 @@
   "scripts": {
     "start": "bun run ./src/index.ts"
   },
-  "name": "upload-r2",
+  "name": "upload-r2-s3",
   "module": "index.ts",
   "type": "module",
   "devDependencies": {
